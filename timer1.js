@@ -27,6 +27,7 @@ const timer = () => {
     // sounds the alarms after specified delay
     setTimeout(() => {
       soundAlarm();
+      console.log('I beeped...', time);
     }, time * 1000);
   }
 };
