@@ -4,6 +4,8 @@
  */
 
 // get command line arguments and store in an array
+const beeps = process.argv.slice(2);
+
 // iterate through the array of command line arguments to execute beep sound after specified time delay
 
 // EDGE CASES
